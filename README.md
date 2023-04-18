@@ -1,5 +1,5 @@
 # CounterStrike-Twitch-Inspect-Script
-Many streamers want to view the skins of their viewers - this script helps to keep track of the posted skin links
+Many streamers want to view the skins of their viewers - this script helps to keep track of the posted skin links (beginning with (+)csgo_econ_action_preview) 
 
 first you need to make sure you have python 3 installed
 then run in commandline pip install twitchio
