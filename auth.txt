@@ -1,0 +1,2 @@
+oauth:[replace with https://twitchapps.com/tmi/]
+[replace with your channel name]
