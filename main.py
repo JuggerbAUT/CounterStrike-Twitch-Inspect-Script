@@ -22,7 +22,7 @@ class Bot(commands.Bot):
         print(f'Logged in as | {self.nick}')
 
     async def event_message(self, message):
-        check = re.search("(\\+*csgo_econ_action_preview%)(([0-9]*)([A-Z]*))*", message.content)
+        check = re.search("(\\+*csgo_econ_action_preview)(([0-9]*)([A-Z]*))*", message.content)
         if check:
           with open("skins.txt", "a") as skins:
             skins.write(message.content)
